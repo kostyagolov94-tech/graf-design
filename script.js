@@ -1,6 +1,8 @@
-document.addEventListener("DOMContentLoaded", function(){
+document.addEventListener("DOMContentLoaded",()=>{
 
-const images = [
+
+const images=[
+
 "page1.png",
 "page2.png",
 "page3.png",
@@ -10,30 +12,59 @@ const images = [
 "page7.png",
 "page8.png",
 "page9.png"
+
 ];
 
-let current = 0;
 
-const image = document.getElementById("portfolioImage");
-const next = document.querySelector(".next");
-const prev = document.querySelector(".prev");
+let current=0;
 
 
-next.onclick = function(){
-    current++;
-    if(current >= images.length){
-        current = 0;
-    }
-    image.src = images[current];
+const img=document.getElementById("portfolioImage");
+
+const next=document.querySelector(".next");
+
+const prev=document.querySelector(".prev");
+
+
+
+next.onclick=()=>{
+
+
+current++;
+
+
+if(current>=images.length){
+
+current=0;
+
+}
+
+
+img.src=images[current];
+
+
 };
 
 
-prev.onclick = function(){
-    current--;
-    if(current < 0){
-        current = images.length - 1;
-    }
-    image.src = images[current];
+
+prev.onclick=()=>{
+
+
+current--;
+
+
+if(current<0){
+
+current=images.length-1;
+
+}
+
+
+img.src=images[current];
+
+
 };
+
+
 
 });
