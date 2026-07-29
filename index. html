@@ -73,17 +73,15 @@
 
 <div class="gallery">
 
-<div class="card">Работа 1</div>
-
-<div class="card">Работа 2</div>
-
-<div class="card">Работа 3</div>
-
-<div class="card">Работа 4</div>
-
-<div class="card">Работа 5</div>
-
-<div class="card">Работа 6</div>
+<img src="page1.png" class="card" alt="Работа 1">
+<img src="page2.png" class="card" alt="Работа 2">
+<img src="page3.png" class="card" alt="Работа 3">
+<img src="page4.png" class="card" alt="Работа 4">
+<img src="page5.png" class="card" alt="Работа 5">
+<img src="page6.png" class="card" alt="Работа 6">
+<img src="page7.png" class="card" alt="Работа 7">
+<img src="page8.png" class="card" alt="Работа 8">
+<img src="page9.png" class="card" alt="Работа 9">
 
 </div>
 
