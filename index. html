@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ГРАФ-ДИЗАЙН | Константин</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+<nav class="container">
+
+<h1>ГРАФ-ДИЗАЙН</h1>
+
+<ul>
+
+<li><a href="#about">Обо мне</a></li>
+
+<li><a href="#portfolio">Портфолио</a></li>
+
+<li><a href="#services">Услуги</a></li>
+
+<li><a href="#contacts">Контакты</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h2>Дизайн, который выделяет ваш бренд.</h2>
+
+<p>Логотипы • Брендинг • Полиграфия • Digital Design</p>
+
+<a href="#portfolio" class="btn">Смотреть портфолио</a>
+
+</div>
+
+</section>
+
+<section id="about" class="container">
+
+<h2>Обо мне</h2>
+
+<p>
+
+Меня зовут Константин.
+
+Я занимаюсь графическим дизайном и создаю логотипы, фирменный стиль,
+
+упаковку, полиграфию и рекламные материалы.
+
+Каждый проект создаётся с вниманием к деталям и задачам клиента.
+
+</p>
+
+</section>
+
+<section id="portfolio" class="container">
+
+<h2>Портфолио</h2>
+
+<div class="gallery">
+
+<div class="card">Работа 1</div>
+
+<div class="card">Работа 2</div>
+
+<div class="card">Работа 3</div>
+
+<div class="card">Работа 4</div>
+
+<div class="card">Работа 5</div>
+
+<div class="card">Работа 6</div>
+
+</div>
+
+</section>
+
+<section id="services" class="container">
+
+<h2>Услуги</h2>
+
+<div class="services">
+
+<div>Логотипы</div>
+
+<div>Фирменный стиль</div>
+
+<div>Брендинг</div>
+
+<div>Полиграфия</div>
+
+<div>Упаковка</div>
+
+<div>Баннеры</div>
+
+</div>
+
+</section>
+
+<section id="contacts" class="container">
+
+<h2>Контакты</h2>
+
+<p>Константин</p>
+
+<p>
+
+<a href="tel:+375291923494">
+
+📞 +375 29 192-34-94
+
+</a>
+
+</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 ГРАФ-ДИЗАЙН</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
