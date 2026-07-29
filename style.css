@@ -194,3 +194,23 @@ font-size:32px;
 }
 
 }
+.slider{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:20px;
+}
+
+.slider img{
+width:100%;
+max-width:900px;
+border-radius:20px;
+}
+
+.slider button{
+font-size:40px;
+background:none;
+border:none;
+color:white;
+cursor:pointer;
+}
