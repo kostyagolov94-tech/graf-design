@@ -1,33 +1,25 @@
-document.addEventListener("DOMContentLoaded", () => {
+const images = [
+"page1.png",
+"page2.png",
+"page3.png",
+"page4.png",
+"page5.png",
+"page6.png",
+"page7.png",
+"page8.png",
+"page9.png"
+];
 
-const cards = document.querySelectorAll(".card");
+let current = 0;
 
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.style.opacity = "1";
-            entry.target.style.transform = "translateY(0)";
-        }
-    });
-}, {
-    threshold: 0.2
-});
+const img = document.getElementById("portfolioImage");
 
-cards.forEach(card => {
-    card.style.opacity = "0";
-    card.style.transform = "translateY(50px)";
-    card.style.transition = "0.8s ease";
-    observer.observe(card);
-});
+document.querySelector(".next").onclick = () => {
+current = (current + 1) % images.length;
+img.src = images[current];
+};
 
-const button = document.querySelector(".btn");
-
-button.addEventListener("mouseenter", () => {
-    button.style.transform = "scale(1.08)";
-});
-
-button.addEventListener("mouseleave", () => {
-    button.style.transform = "scale(1)";
-});
-
-});
+document.querySelector(".prev").onclick = () => {
+current = (current - 1 + images.length) % images.length;
+img.src = images[current];
+};
